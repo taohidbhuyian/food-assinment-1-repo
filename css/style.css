@@ -97,10 +97,13 @@ header{
     margin-bottom: 70px;
 } 
 .logo h2{
-    color: #0a9cf9;
+    color: #666;
     font-size: 30px;
     font-family: 'Merriweather', serif;
     margin-top: 5px;
+}
+.logo h2 span{
+    color: #0a9cf9;
 }
 .header-item{
     justify-content: space-between;
@@ -163,7 +166,7 @@ header{
 }
 
 .about-us-text p{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-top: 10px;
 }
 /* --------about us part end here------ */
