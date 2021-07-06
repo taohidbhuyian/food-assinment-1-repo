@@ -1,0 +1,244 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&display=swap');
+
+
+/* google fonts logo */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+
+
+
+/* background-color: #99e84a; */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+*, ::after , ::before{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 85%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-6{
+    flex-basis: 50%;
+}
+.col-4{
+    flex-basis: 33.3333%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-primary{
+    background-image: linear-gradient(#0a9cf9, #112938);
+}
+.btn-primary:hover{
+    background-color: #0a9cf9;
+    border: 1px solid #0a9cf9; 
+}
+
+.section-headder h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.section-headder p{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* header part start here */
+ 
+header{
+    padding-top: 10px;
+    margin-bottom: 70px;
+} 
+.logo h2{
+    color: #0a9cf9;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    margin-top: 5px;
+}
+.header-item{
+    justify-content: space-between;
+}
+.nav{
+    width: 550px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li a{
+    color: #666;
+    padding-bottom: 7px;
+    transition: .3s;
+}
+.nav ul li a:hover{
+    color: #0a9cf9;
+    border-bottom: 3px solid #0a9cf9;
+}
+
+.banner{
+    margin-top: 30px;
+}
+.banner-text{
+    margin-top: 110px;
+}
+.banner-text h1{
+    font-size: 45px;
+}
+.banner-text h1 span{
+    color: #0a9cf9;
+}
+.banner-text p{
+    margin-bottom: 60px;
+}
+
+#banner-img img{
+    width: 100%;    
+}
+
+
+/* -------header part end here--------- */
+
+/* --------about us part start here------ */
+
+.about-us-wrapper{
+    background-image: url(/image/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+
+}
+.about-us-img img{
+    margin-left: 150px;
+    width:300px;
+    height: 350px;
+}
+
+.about-us-text p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* --------about us part end here------ */
+
+
+
+
+/* --------recipes part start here------ */
+
+.recipes-wrapper{
+    margin-bottom: 100px;
+}
+.recipes-item{
+    border: 5px solid #fff ;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 20px #666;
+}
+.recipes-img img{
+    padding: 5px;
+    width: 100%;
+    height: 270px;
+}
+
+.recipes-text{
+    padding: 10px;
+    text-transform: capitalize;
+    background: #fff;
+}
+
+/* --------recipes part end here------ */
+
+
+
+/* --------contact us part start here------ */
+
+.contuct-us-wrapper{
+    background: #f1faff;
+    padding-bottom: 70px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+.form-control{
+    padding: 7px 10px;
+    width: 100%;
+}
+.form-text{
+    width: 100%;
+    resize: vertical;
+    padding: 7px 10px ;
+}
+.btn-submit{
+    float: right;
+}
+
+/* --------contact us part end here------ */
+
+
+/* --------footer part start here------ */
+
+footer{
+    background: #120e43;
+    padding: 20px 0;
+    text-align: center;
+}
+footer span{
+    color: #d8e217;
+}
+footer h4 , footer h3{
+  color: #fff;
+}
+
+
+
+/* --------footer part end here------ */
